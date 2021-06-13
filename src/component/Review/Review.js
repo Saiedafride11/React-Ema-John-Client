@@ -32,7 +32,6 @@ const Review = () => {
         removeFromDatabaseCart(productKey);
     }
 
-
     useEffect( () => {
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart)
